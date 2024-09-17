@@ -1,0 +1,68 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .font_inter {
+      font-family: "Inter", sans-serif;
+    }
+
+    .font_raleway {
+      font-family: "Raleway", sans-serif;
+    }
+
+    .dating_star_card:hover .icon_bg {
+      background: #F7B103;
+    }
+
+    .dating_star_card:hover .icon_bg svg path {
+      fill: #000000;
+    }
+
+    .icon_bg svg path {
+      transition: all linear 300ms;
+    }
+
+    .slick-prev::before {
+      content: url(./assets/image/svg/backArrow.svg) !important;
+      font-size: 20px !important;
+    }
+
+    .slick-next::before {
+      content: url(./assets/image/svg/nextArrow.svg) !important;
+      font-size: 20px !important;
+    }
+
+    .slideBox2 .slick-list .slick-track {
+      display: flex;
+      gap: 24px;
+    }
+
+    .prev {
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 200ms linear;
+    }
+
+    .next {
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 200ms linear;
+    }
+
+    .next:hover {
+      background-color: white;
+    }
+
+    .next:hover path {
+      fill: black;
+    }
+
+    .prev:hover {
+      background-color: white;
+    }
+
+    .prev:hover path {
+      fill: black;
+    }
